@@ -77,7 +77,7 @@ uint32_t ff_bl_lvl_cpy;
 
 /* State booleans */
 static bool pcc_enabled = false;
-static bool mdss_backlight_enable = false;
+static bool mdss_backlight_enable = true; /* Enable by default */
 
 static int flicker_free_push(int val)
 {
